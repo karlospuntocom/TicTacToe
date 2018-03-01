@@ -7,18 +7,21 @@ body{
 h1, button{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	text-shadow: 2px 2px 2px white;
 }
 
 h1{
 	font-size: 75px;
 	margin-top: 5%;
+	text-shadow: 2px 2px 2px white;
 }
 
 button{
 	font-size: 25px;
-	border-radius: 25px;
-	background-color: white;
+    border-radius: 25px;
+    background-color: #ff217c;
+    text-shadow: 2px 2px 2px #ffa283;
+    box-shadow: 0 0 20px 2px #0960af;
+    border: 3px solid #0cffe1;
 }
 
 #game{
@@ -96,25 +99,28 @@ ul{
 	/*font-size: 20px;*/
 	font-family: 'Orbitron', sans-serif;
 	color: #0FF; 
-	text-shadow: 0 0 15px #0033CC;
+	text-shadow: 0 0 20px #0033CC;
 	text-decoration:none;
 	font-size: 3.5em;
 	font-weight: 900;
 }
 .dgcAlert .dgcVentana .dgcAceptar{
-	font-size: 25px;
-	border-radius: 25px;
-	background-color: white;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-	text-shadow: 2px 2px 2px white;
-	background:#09C;
-	bottom:20px;
-	display: inline-block;
-	padding-left: 5px;
-	padding-right: 5px;
-	text-transform: uppercase;
-	cursor: pointer;
-	color:black;
-	margin-top:50px;
+	font-size: 22px;
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    background: #673AB7;
+    bottom: 20px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #13a3dc;
+    margin-top: 50px;
+	box-shadow: 0 0 11px 3px #0e6098;
+    border: #00f6ff;
+    border-style: solid;
 }
